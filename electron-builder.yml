@@ -1,0 +1,42 @@
+appId: 'com.idongwo.desk'
+copyright: 'GFC'
+productName: '洞窝小工具'
+
+asar: 'true'
+
+directories:
+    output: 'release'
+
+files:
+    - 'src/assets/'
+    - 'package.json'
+    - 'out/'
+    - 'native/main.js'
+    - 'native/preload.js'
+    - 'native/events.js'
+    - 'native/func.js'
+    - 'native/utils/fileUtils.js'
+    - 'native/utils/catch.js'
+
+win:
+    icon: 'src/assets/app-icon/win/icon.png'
+    target:
+        - target: 'nsis'
+          arch:
+              - 'x64'
+        - target: 'portable'
+
+mac:
+    category: 'public.app-category.productivity'
+    icon: 'src/assets/app-icon/mac/icon.png'
+    gatekeeperAssess: false
+    hardenedRuntime: true
+    target:
+        - 'zip'
+        - target: 'dmg'
+          arch:
+            - 'arm64'
+            - 'x64'
+
+electronDownload:
+    mirror: 'https://npm.taobao.org/mirrors/electron/'

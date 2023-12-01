@@ -1,0 +1,23 @@
+.container {
+    padding: 0;
+}
+
+.list {
+    width: 610px;
+}
+.line {
+    margin: 16px 0;
+    width: 610px;
+}
+.btnbox {
+    width: 200px;
+    text-align: right;
+}
+
+.typecontain {
+    margin-bottom: 16px;
+    width: 610px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

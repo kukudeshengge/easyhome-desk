@@ -1,0 +1,33 @@
+.status {
+    background-color: #efefef;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 13px;
+}
+
+.status1 {
+    width: 200px;
+}
+
+.tags {
+    margin: 0 10px;
+}
+
+.hour {
+    width: 180px;
+    margin-left: 50px;
+}
+
+.waiturl {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.waittext {
+    text-align: center;
+    span {
+        min-width: 20px;
+        font-weight: 700;
+    }
+}
