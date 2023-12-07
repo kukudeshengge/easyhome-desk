@@ -23,7 +23,6 @@ const nextConfig = {
         unoptimized: true,
     },
     poweredByHeader: false,
-    distDir: 'build',
     env: NODE_ENV === 'development' ? testConfig : productionConfig,
     publicRuntimeConfig: {
         NODE_ENV,
