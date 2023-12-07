@@ -34,6 +34,10 @@ const routes = [
         path: '/h5wxapp',
         name: '落地页小程序码',
     },
+    {
+        path:'/testNav',
+        name: '测试导航'
+    },
     // 图书已废弃
     // {
     //     path: '/books',
