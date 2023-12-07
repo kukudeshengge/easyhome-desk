@@ -30,7 +30,6 @@ const nextConfig = {
     experimental: {
         urlImports: [],
     },
-    assetPrefix: NODE_ENV === 'production' ? '../out' : '',
 };
 
 module.exports = nextConfig;
